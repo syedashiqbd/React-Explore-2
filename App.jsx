@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Counter from './Counter'
+import Team from './Team'
 
 function App() {
 
@@ -13,10 +14,13 @@ function App() {
     alert('Button Clicked 2')
   }
   const addToFive =(num)=>{
-    alert(num + 5)
+    alert(num + 10)
   }
   return (
     <>
+    <div>
+      <Team></Team>
+    </div>
     <div>
       <Counter />
     </div>
